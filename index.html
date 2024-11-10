@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolling Dice</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="container">
+            <!--Label pour indiquer combien de bonus le lancer aura (1 à 10)-->
+            <label for="quantity">Proficiency Bonus:</label>
+            <input type="number" id="myProficiency" min="0" max="10" placeholder="0">
+            <button id="myButton" class="content">Roll</button>
+            <br>
+            <!--Label affichant le résultat du dés lancer-->
+            <label id="myLabel" class="content"></label>
+            <br>
+            <!--Label affichant "Success" ou "Failure" après le lancer de dès-->
+            <label id="myResult" class="content"></label> 
+        </div>
+
+        <!-- Sélection de type de dés-->
+        <div class="option">
+            <select id="myOption">
+                <option value="d4">d4</option>
+                <option value="d6">d6</option>
+                <option value="d8">d8</option>
+                <option value="d10">d10</option>
+                <option value="d12">d12</option>
+                <option value="d20">d20</option>
+                <option value="d100">d100</option>
+            </select>
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

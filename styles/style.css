@@ -1,0 +1,60 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(36,0,26);
+    background: linear-gradient(90deg, rgba(36,0,26,1) 0%, rgba(82,9,121,1) 35%, rgba(255,0,236,1) 100%);
+}
+
+.main-container {
+    width: fit-content;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+}
+
+.container{
+    display: inline-block;
+    background-color: hsl(278, 76%, 75%);
+    padding: 30px;
+    width: 240px;
+    height: 150px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#myProficiency{
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+#myButton{
+    font-size: 2em;
+    padding: 5px 50px;
+    border-radius: 20px;
+    background-color: hsl(332, 58%, 87%);
+    color: rgb(95, 45, 95);
+}
+
+#myButton:hover{
+    background-color: hsl(333, 26%, 75%);
+    color: rgb(95, 45, 95);
+}
+
+#myLabel{
+    font-size: 3em;
+}
+
+#myResult{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: rgb(95, 45, 95);
+}
+
+.option {
+    background-color: hsl(278, 76%, 75%);
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 325px;
+}
